@@ -44,9 +44,7 @@ def add_s(words)
 end
 
 def swap_elements_from_to(array, index, destination_index)
-  destination = array[destination_index]
-  array[destination_index] = array[index]
-  array[index] = destination
+  array[index], array[destination_index] = array[destination_index], array[index]
   array
 end
 
