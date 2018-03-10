@@ -41,3 +41,6 @@ end
 def add_s(words)
   words.each { |word| word << "s" if words.index(word) != 1 }
 end
+
+def swap_elements_from_to
+end
