@@ -32,7 +32,7 @@ describe 'collections practice' do
 
   describe 'swap_elements_from_to' do
     it 'swaps two elements of an array with the given indices' do
-      expect(swap_elements_from_to(%w(a b c), 0, 2)).to_eq(%w(c b a))
+      expect(swap_elements_from_to(%w(a b c), 0, 2)).to_enum(%w(c b a))
     end
   end
 
