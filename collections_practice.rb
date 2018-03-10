@@ -27,9 +27,9 @@ end
 
 def kesha_maker(strings)
   strings.map do |string|
-    letters = string.split(//)
+    # letters = string.split(//)
     letters[2] = "$"
-    letters.join
+    # letters.join
   end
 end
 
